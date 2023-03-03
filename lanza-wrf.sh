@@ -8,8 +8,8 @@
 #SBATCH --mem-per-cpu=2300
 #SBATCH --mail-user=usuario@nlhpc.cl
 #SBATCH --mail-type=ALL
-#SBATCH -o asd_%j.out
-#SBATCH -e asd_%j.err
+#SBATCH -o TestJob_wrf_%j.out
+#SBATCH -e TestJob_wrf_%j.err
 
 #-----------------Toolchain---------------------------
 ml purge
